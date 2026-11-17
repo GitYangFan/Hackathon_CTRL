@@ -1,5 +1,27 @@
 # Project for Hackathon Challenge - Site Safety Patrol
 
+> **Note:** This project is intended as a reference framework only. Please do
+> not modify any of the local code on this machine. The functional modules
+> required for the challenge must be run on each team's own computer.
+
+## Networking with Byte (ROS2)
+
+Configure your computer as follows to communicate with the robot over ROS2:
+
+1. Connect to the onboard 5G module's hotspot:
+   - Wi-Fi: `RUT_B1D5_5G`
+   - Password: `Rg35SqTd`
+2. Set IPv4 to manual assignment:
+   - IPv4 address: `192.168.123.190`
+   - Netmask: `255.255.255.0`
+3. Set the ROS domain:
+   ```bash
+   export ROS_DOMAIN_ID=1
+   ```
+
+> **Warning:** All teams share the same IP address. Do not let multiple teams
+> or computers try to communicate with the robot at the same time.
+
 ## Running the System
 
 Source the environment (not necessary on byte because they were added to startup config):
@@ -35,8 +57,7 @@ prompted (`1=ai`). Keep the other default parameters unchanged. Wait until the
 robot has squatted twice and reached its standby state, then type `Move` and
 press Enter to start listening for velocity commands.
 
-> `eno1` is the network interface used to reach the robot; replace it if your
-> machine uses a different one.
+> `eno1` is the network interface used to reach the robot; 
 
 ### Step 3: Start MonoNavi (Terminal 3)
 
