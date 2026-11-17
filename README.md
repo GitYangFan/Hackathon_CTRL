@@ -2,7 +2,7 @@
 
 ## Running the System
 
-Source the environment in every new terminal first:
+Source the environment (not necessary on byte because they were added to startup config):
 
 ```bash
 source /opt/ros/humble/setup.bash
