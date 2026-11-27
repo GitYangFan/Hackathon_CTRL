@@ -89,3 +89,17 @@ by default.
 > This repository also contains an identical copy at
 > [scripts/external_detection_publisher.py](scripts/external_detection_publisher.py),
 > which can be run directly instead.
+
+
+markdown
+## Citation
+
+If you find this work useful in your research, please consider citing our paper:
+
+```bibtex
+@article{yourlastname2025mononavi,
+  title     = {MonoNavi: A Reactive Map-free Monocular Navigation Framework for Resource-Constrained Robots},
+  author    = {Fan Yang, Mia Dietershagen， Xinhua Liu， Katharina Klemt-Albert},
+  journal   = {IEEE International Conference on Mechatronics and Machine Vision in Practice},
+  year      = {2026},
+}
