@@ -25,6 +25,7 @@ Configure your computer as follows to communicate with the robot over ROS2:
 ## Running the System
 
 (Please first connect to the Byte onboard Jetson via SSH. Please contact your mentor for login info.)
+
 Source the environment (not necessary on byte because they were added to startup config):
 
 ```bash
