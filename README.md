@@ -99,7 +99,7 @@ markdown
 If you find this work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{yourlastname2025mononavi,
+@article{yang2026mononavi,
   title     = {MonoNavi: A Reactive Map-free Monocular Navigation Framework for Resource-Constrained Robots},
   author    = {Fan Yang, Mia Dietershagen， Xinhua Liu， Katharina Klemt-Albert},
   journal   = {IEEE International Conference on Mechatronics and Machine Vision in Practice},
